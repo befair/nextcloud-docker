@@ -1,0 +1,4 @@
+nextcloud-db/
+nextcloud-file/
+.env
+*.swp

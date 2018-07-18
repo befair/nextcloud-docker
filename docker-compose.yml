@@ -8,9 +8,6 @@ services:
       - ./nextcloud-db:/var/lib/postgresql/data
     env_file:
       - .env
-    #environment:
-      #- POSTGRES_USER=nextcloud
-      #- POSTGRES_PASSWORD=asdasd
   app:
     image: nextcloud
     ports:
